@@ -2,10 +2,11 @@ import React from 'react'
 import './style.css';
 import FacebookIcon from "@mui/icons-material/Facebook";
 import EmailIcon from "@mui/icons-material/Email";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import GitHubIcon from '@mui/icons-material/GitHub';
-
+import { Link } from '@mui/material';
 function Footer() {
 
   function topFunction() {
@@ -17,19 +18,17 @@ function Footer() {
   return (
 //    <section>Footer Example 4</section>;
 <footer class="footer-distributed">
-
 			<div class="footer-left">
 
 				<h3>Karan<span>Megha</span></h3>
-
 				<p class="footer-links">
-					<a href="#" class="link-1">Home</a>
+					<a href="/" class="link-1">Home</a>
 					
-					<a href="#">Compare</a>
+					<a href="/compare">Compare</a>
 				
-					<a href="#">WatchList</a>
+					<a href="/watchlist">WatchList</a>
 				
-					<a href="#">Dashboard</a>
+					<a href="/dashboard">Dashboard</a>
 					
 					{/* <a href="#">Faq</a>
 					
@@ -47,6 +46,7 @@ function Footer() {
 				</div> */}
 
 				<div>
+					
 					<i class="fa fa-phone"></i>
 					<p>+91 9265569875</p>
 				</div>
@@ -60,18 +60,18 @@ function Footer() {
 
 			<div class="footer-right">
 
-				<p class="footer-company-about">
+				{/* <p class="footer-company-about">
 					<span>About the company</span>
 					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
-				</p>
+				</p> */}
 
 				<div class="footer-icons">
 
-					<a href="#"><i class="fa fa-facebook"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-linkedin"></i></a>
-					<a href="#"><i class="fa fa-github"></i></a>
-
+					
+					<a href="https://linkedin.com/in/karan-megha/" className='icons'><LinkedInIcon /></a>
+					<a href="https://www.instagram.com/karan__megha/" className='icons'><InstagramIcon /></a>
+					<a href="https://github.com/KaranMegha" className='icons'><GitHubIcon /></a>			
+					
 				</div>
 
 			</div>

@@ -238,10 +238,10 @@ section {
 
 .footer-distributed .footer-icons a{
 	display: inline-block;
-	width: 35px;
-	height: 35px;
+	width: 50px;
+	height: 50px;
 	cursor: pointer;
-	background-color:  #33383b;
+	/* background-color:  #33383b; */
 	border-radius: 2px;
 
 	font-size: 20px;
@@ -275,3 +275,9 @@ section {
 	}
 
 }
+
+/* .icons{
+  margin: 20px;
+  width: 50px;
+  height: 50px;
+} */
